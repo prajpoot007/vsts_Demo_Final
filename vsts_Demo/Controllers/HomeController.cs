@@ -10,10 +10,22 @@ namespace vsts_Demo.Controllers
     {
         public ActionResult Index()
         {
+
             ViewBag.Title = "Home Page";
 
             /*
-             * added comments 
+             * added comments again
+             */
+            return View();
+        }
+
+        public ActionResult DemoExample()
+        {
+
+            ViewBag.Title = "Home Page";
+
+            /*
+             * added comments again
              */
             return View();
         }
