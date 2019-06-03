@@ -17,5 +17,15 @@ namespace vsts_Demo.Controllers
              */
             return View();
         }
+
+        public ActionResult Demo()
+        {
+            ViewBag.Title = "Home Page";
+
+            /*
+             * added comments 
+             */
+            return View();
+        }
     }
 }
