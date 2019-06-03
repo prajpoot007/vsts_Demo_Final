@@ -12,6 +12,9 @@ namespace vsts_Demo.Controllers
         {
             ViewBag.Title = "Home Page";
 
+            /*
+             * added comments 
+             */
             return View();
         }
     }
